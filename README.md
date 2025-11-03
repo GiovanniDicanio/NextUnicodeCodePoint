@@ -1,7 +1,7 @@
 # Next Unicode Code Point
 C++ code to find the next Unicode code point in UTF-8 and UTF-16 encoded strings.
 
-The `NextCodePoint.hpp` header declares the public interfaces of two functions: `NextCodePointUtf8` and `NextCodePointUtf16`.
+The [`NextCodePoint.hpp`](UnicodeNextCodePoint/UnicodeNextCodePoint/NextCodePoint.hpp) header declares the public interfaces of two functions: `NextCodePointUtf8` and `NextCodePointUtf16`.
 As their names suggest, they are used to find the next code point in UTF-8 and UTF-16 encoded strings.
 Think of them like the "Unicode evolution" of increasing a character position index (`index++`, or `pch++` with pointers) when
 iterating through characters of pure ASCII strings:
